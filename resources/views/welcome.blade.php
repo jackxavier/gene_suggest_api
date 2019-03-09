@@ -45,13 +45,13 @@
         }
 
         .title {
-            font-size: 84px;
+            font-size: 40px;
         }
 
         .links {
             color: #636b6f;
             padding: 0 25px;
-            font-size: 30px;
+            font-size: 15px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
