@@ -2,7 +2,6 @@
 
 namespace App\Eloquent\Repository;
 
-
 use App\Eloquent\DataRequest\GeneDataRequest;
 use App\Eloquent\Entity\Gene;
 

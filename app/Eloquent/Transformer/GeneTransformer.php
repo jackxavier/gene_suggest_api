@@ -2,7 +2,6 @@
 
 namespace App\Eloquent\Transformer;
 
-
 use App\Eloquent\Entity\Gene;
 
 class GeneTransformer

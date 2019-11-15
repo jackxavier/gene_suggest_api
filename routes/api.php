@@ -1,6 +1,5 @@
 <?php
 
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -15,6 +14,6 @@
 Route::prefix('/gene_suggest')->group(
     function () {
         Route::get('/', '\App\Http\Controllers\GeneSuggestController@suggest')
-             ->name('api.gene-suggest.search');
+            ->name('api.gene-suggest.search');
     }
 );

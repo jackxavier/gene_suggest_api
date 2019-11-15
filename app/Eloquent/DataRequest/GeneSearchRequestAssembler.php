@@ -16,7 +16,6 @@ class GeneSearchRequestAssembler
         GeneDataRequest &$dataRequest,
         array $validatedData
     ): void {
-
         if (array_key_exists(GeneSearchRequest::V_FILTER_GENE_NAME, $validatedData)) {
             $dataRequest->withNameLike($validatedData[GeneSearchRequest::V_FILTER_GENE_NAME]);
         }
